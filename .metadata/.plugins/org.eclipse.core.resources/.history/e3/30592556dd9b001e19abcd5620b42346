@@ -1,0 +1,5 @@
+package com.springboot.rest.webservices.restfulwebservices.security;
+
+public class SpringSecurityConfiguration {
+
+}

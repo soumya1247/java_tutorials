@@ -1,0 +1,5 @@
+package com.springboot.mockito.mockitodemo.list;
+
+public class ListTest {
+
+}

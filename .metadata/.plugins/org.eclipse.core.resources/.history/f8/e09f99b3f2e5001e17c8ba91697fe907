@@ -1,0 +1,22 @@
+package Interview;
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Optional;
+import java.util.Set;
+
+public class FirstRepeatedCharacter {
+
+	public static void main(String[] args) {
+		
+		String[] arr = "java  tutorial".replaceAll("\\s+", "").toLowerCase().split("");
+		Set<String> check = new HashSet<String>();	
+		List<String> list = Arrays.asList(arr);
+		Optional<String> out = list.stream().filter(s -> !check.add(s)).findFirst();
+		System.out.println(out.get());
+		System.out.println(check);
+
+	}
+
+}

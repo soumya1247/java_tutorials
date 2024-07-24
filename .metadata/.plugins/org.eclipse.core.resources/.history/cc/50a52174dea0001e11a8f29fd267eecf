@@ -1,0 +1,5 @@
+package com.springboot.learnspringsecurity.basic;
+
+public class BasicAuthSecurityConfiguration {
+
+}

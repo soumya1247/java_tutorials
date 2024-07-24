@@ -1,0 +1,22 @@
+package Interview;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class FirstRepeatedCharacter {
+
+	public static void main(String[] args) {
+		
+		String str = "java tutorial";
+		Set<String> check = new HashSet<>();
+		for(int i = 0; i < str.length() - 1; i++) {
+			if (check.contains(str.charAt(i))) {
+				System.out.println(str.charAt(i));
+				break;
+			}
+			check.add(String.valueOf(str.charAt(i)));
+		}
+
+	}
+
+}

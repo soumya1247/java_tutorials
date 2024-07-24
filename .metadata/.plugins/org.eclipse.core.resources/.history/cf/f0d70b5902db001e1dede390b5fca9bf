@@ -1,0 +1,10 @@
+package Interview;
+
+public class Words_Starting_With_Vowels {
+
+	public static void main(String[] args) {
+		System.out.println("HERE");
+
+	}
+
+}

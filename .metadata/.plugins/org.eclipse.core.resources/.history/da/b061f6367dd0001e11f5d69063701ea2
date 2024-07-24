@@ -1,0 +1,52 @@
+package Interview;
+
+public class Examples {
+
+}
+
+//1. Sort Elements based on age
+//2. Sort the same in descending order
+//3. Output the first 2 elements
+//4. Skip 1st element and out put rest
+
+//import java.util.*;
+//import java.util.stream.Collectors;
+//
+//public class Main {
+//    public static void main(String[] args) {
+//       List<Person> people = new ArrayList<>();
+//        people.add(new Person("Alice", 25));
+//        people.add(new Person("Bob", 30));
+//        people.add(new Person("Charlie", 20));
+//
+//        // Sorting based on age using Stream API
+//        List<Person> sortedPeople = people.stream()
+//                .sorted(Comparator.comparingInt(Person::getAge).reversed())
+//                .limit(2)
+//                .skip(1)
+//                .collect(Collectors.toList());
+//
+//        // Print the sorted list
+//        sortedPeople.forEach(person ->
+//                System.out.println(person.getName() + ": " + person.getAge()));
+//        
+//  }
+//}
+//
+//public class Person {
+//    private String name;
+//    private int age;
+//
+//    public Person(String name, int age) {
+//        this.name = name;
+//        this.age = age;
+//    }
+//
+//    public String getName() {
+//        return name;
+//    }
+//
+//    public int getAge() {
+//        return age;
+//    }
+//}

@@ -1,0 +1,15 @@
+package Interview;
+
+import java.util.List;
+
+public class YoungerOrOlderThan30 {
+
+	public static void main(String[] args) {
+		
+		List<Employee> empList = EmployeeData.getEmployeeData();
+		
+		System.out.println(empList);
+
+	}
+
+}
